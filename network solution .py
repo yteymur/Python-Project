@@ -64,8 +64,6 @@ class Program():
                 self.birim_maliyet.append(eklenecek_merkezler[3])
                 self.Merkezler.append([eklenecek_merkezler[0],eklenecek_merkezler[1],eklenecek_merkezler[2],eklenecek_merkezler[3]])
                 print("MERKEZİMİZ EKLENMİŞTİR...")
-           
-    def __init__(self,başlangıç_noktası = [ 0, 0,  0,0,  1,  1, 1,1,1,5,5,5,5 kullandım.Eğer 5 değer girildiyse üretim-tüketim alanına ekliyor. 4 değer girildiyse yeni bir merkez eklenmediğini düşünerek except komutundaki print fonksiyonunu çalıştırıyor.Çok uzun oldu bu açıklama :)
             try:
                 self.Üretim_tüketim.append(eklenecek_merkezler[4])
             except:
